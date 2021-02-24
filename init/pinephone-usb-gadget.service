@@ -1,0 +1,11 @@
+[Unit]
+Description=Configure USB gadget
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/pinephone-usb-gadget setup
+ExecStop=/usr/sbin/pinephone-usb-gadget reset
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
