@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#
+# Pinephone-dev-tools by PsychoGame <jajadekroon AT gmail DOT com>
+# This is a stub file created to facilitate the 2-step make & make install process
+# Scripts originally written by Arnaud Ferraris
+#
+
+VERS="@VERSION@"
+
+exit 0
