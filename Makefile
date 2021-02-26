@@ -1,4 +1,4 @@
-VERSION = 0.9
+VERSION = 0.91
 PN = pinephone-dev-tools
 
 PREFIX ?= /usr
